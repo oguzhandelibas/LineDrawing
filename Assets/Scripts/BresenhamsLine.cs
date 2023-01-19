@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class BresenhamsLine
+public interface BresenhamsLine
 {
-    public void DrawPixelLine(int x, int y, int x2, int y2, Color color, Texture2D texture)
+    public static void DrawPixelLine(int x, int y, int x2, int y2, Color color, Texture2D texture)
     {
         int w = x2 - x;
         int h = y2 - y;
